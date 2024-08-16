@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #0a192f;
+}
+
+
+.menu{
+}
+
+.menu ul{
+    font-size: 14px;
+    text-align: right;
+    align-items: center;
+    margin-right: 2%;
+    list-style: none;
+    cursor:default;
+
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 50px;
+    color: none;
+}
+
+.menuzin{
+    color: #ccd6f6;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menuzin:hover{
+    color: #64ffda;
+}
+
+.menu h1{
+    color:inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hello{
+    display: inline;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    margin-right: 30%;
+
+}
+
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100%);
+    height: calc(100vh - 80px);
+    cursor: default;
+    position: relative;
+    background-color: #0a192f;
+}
+
+.myname{
+    color: #ccd6f6;
+    cursor: default;
+    font-size: 45px;
+    font-size: clamp(40px, 8vw, 80px);
+    line-height: 1.1;
+    font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+}
